@@ -1,2 +1,2 @@
 # multipleConfigFiles
-Using Cypress environment on multiple config files
+Using Cypress.env() on multiple configuration files
