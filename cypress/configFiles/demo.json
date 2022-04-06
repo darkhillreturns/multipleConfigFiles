@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.stealmylogin.com/demo.html",
+    "env": {
+      "userEmail": "demouser",
+      "userPassword": "P@ssw0rd",
+      "environment": "demo"
+    }
+  }

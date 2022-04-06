@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cypress": "^9.5.3"
+  },
+
+  "scripts": {
+    "cy:demo": "cypress open --env fileConfig=demo"
+
+  }
+}
