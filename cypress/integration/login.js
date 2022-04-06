@@ -2,8 +2,9 @@
 describe('using cypress env from config file', function()
 {
 
-    it('redirects Sign In if user is not logged in', function()
+    it('calls user credentials from configFiles', function()
     {
+        //run the script cy:demo to call the demo environment
         cy.visit(Cypress.config().baseUrl);
         cy.get('[type="text"]').type(Cypress.env('userEmail'));
         cy.get('[type="password"]').type(Cypress.env('userPassword'))
